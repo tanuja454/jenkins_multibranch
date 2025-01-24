@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+               
+            }
+        }
+
+        stage('Build') {
+            steps {
+                // Simply echo a message for the build stage
+               
+            }
+        }
+
+        stage('Test') {
+            steps {
+                // Simply echo a message for the test stage
+                
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                // Simply echo a message for the deploy stage
+               
+            }
+        }
+    }
+}
